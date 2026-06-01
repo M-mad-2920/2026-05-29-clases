@@ -4,10 +4,8 @@
 package org.example
 
 import org.example.app.App
-import org.example.app.Fecha
 
 fun main() {
     println(App().greeting)
-    val fecha = Fecha(2025, "Mayo", 29)
-    fecha.mostrar()
+    App().date()
 }
